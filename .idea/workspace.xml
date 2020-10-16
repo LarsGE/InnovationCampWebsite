@@ -25,7 +25,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12eed4fe-8267-4691-afee-73e52ecf4bb7" name="Default Changelist" comment="" />
+    <list default="true" id="12eed4fe-8267-4691-afee-73e52ecf4bb7" name="Default Changelist" comment="asd" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602848956595</updated>
-      <workItem from="1602848957977" duration="158000" />
+      <workItem from="1602848957977" duration="991000" />
     </task>
     <servers />
   </component>
@@ -81,5 +81,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="asd" />
   </component>
 </project>

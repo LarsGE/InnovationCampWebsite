@@ -1,0 +1,100 @@
+body{
+    background-color: #ffffff;
+}
+
+/* Add a black background color to the top navigation */
+.toppdiv {
+    background-color: #171818;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+.listNav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+
+}
+
+/* Change the color of links on hover */
+.toppdiv a:hover {
+    background-color: #c4c4c4;
+    color: #171818;
+    cursor: pointer;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #ac0808;
+    color: #b00a0a;
+}
+.logo{
+    top: 5px;
+    left: 5px;
+    align-content: center;
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+a {
+    margin: 30px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: none;
+    font-family: "Helvetica";
+
+}
+/*.header {
+    height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    margin: -10px;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 1vw;
+    border: 1px solid gray;
+}
+.col-small-10 {width: 10%}
+.col-small-20 {width: 20%}
+.col-small-40 {width: 40%}
+.col-small-60 {width: 60%}
+.col-small-100 {width: 100%}
+@media only screen and (min-width: 800px) {
+    body {
+        height:100%;
+        width:100%;
+        background-image: url(../IMG/header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        height:100%;
+        width:100%;
+        background-image: url(../IMG/header.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
