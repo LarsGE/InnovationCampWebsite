@@ -80,7 +80,7 @@ button:hover {
     width: 100%;
 }
 
-.centered {
+.mainText {
     top: 30%;
     left: 25%;
     position: absolute;
@@ -134,6 +134,7 @@ button:hover {
     float: right;
     margin: 50px;
 }
+
 .statIMG {
     height: 420px;
     width: 480px;
@@ -197,5 +198,6 @@ button:hover {
     border-color:#800000;
     background-color: rgba(203, 19, 19, 0.67);
 }
+
 
 
