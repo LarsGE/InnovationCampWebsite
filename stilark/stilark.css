@@ -5,7 +5,7 @@
     padding: 0;
 }
 body {
-    background-color: #d6d6dd;
+    background-color: #ffffff;
 
 }
 li, a {
@@ -26,7 +26,7 @@ header {
     margin-right: auto;
 }
 .navbar{
-    background-color: #d6d6dd;
+    background-color: #ffffff;
 }
 .navLinks {
     list-style: none;
@@ -93,10 +93,7 @@ button:hover {
     letter-spacing: 2px;
     text-shadow: 1px 1px 1px #151313;
 }
-.blackBG {
-    background-color: #151314;
-    padding: 20%;
-}
+
 .firstHeader {
     margin-top: 50px;
     margin-bottom: 25px;
@@ -123,13 +120,30 @@ button:hover {
 }
 
 .whiteBG {
-    background-color: #d6d6dd;
-    padding: 20%;
+    background-color: #ffffff;
+    height: 900px;
+}
+.blackBG {
+    background-color: #f3f3f3;
+    height: 900px;
+    width: 100%;
+}
+.scanner {
+    height: 400px;
+    width: 700px;
+    float: right;
+    margin: 50px;
+}
+.statIMG {
+    height: 420px;
+    width: 480px;
+    float: left;
+    margin: 125px;
+    margin-left: 220px;
 }
 
 .headerTwo {
-    padding-top: 50px;
-    margin-bottom: 25px;
+    padding-top: 125px;
     text-decoration: none;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -140,9 +154,9 @@ button:hover {
 
 }
 
-.TextTwo {
-    width: 55%;
-    margin-left: 24%;
+.TextOne {
+    width: 50%;
+    margin-left: 1vw;
     text-decoration: none;
     text-align: left;
     font-family: "Montserrat", sans-serif;
@@ -150,5 +164,38 @@ button:hover {
     font-weight: 500;
     color: #1f1d1f;
     letter-spacing: 2px;
+    padding:7%;
 
 }
+.TextTwo {
+    width: 50%;
+    float: right;
+    margin-right: 1vw;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f1d1f;
+    letter-spacing: 2px;
+    padding: 7%;
+    margin:auto;
+    }
+
+.childIMG {
+    height: 500px;
+    width: 800px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.pakking{
+    width:100%;
+}
+.glennerhomo {
+    width:33.3333333333333333%;
+    border-color:#800000;
+    background-color: rgba(203, 19, 19, 0.67);
+}
+
+
