@@ -52,7 +52,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602848956595</updated>
-      <workItem from="1602848957977" duration="5843000" />
+      <workItem from="1602848957977" duration="5862000" />
+      <workItem from="1603187165595" duration="1753000" />
     </task>
     <servers />
   </component>
@@ -81,6 +82,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />

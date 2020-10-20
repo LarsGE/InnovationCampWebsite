@@ -11,17 +11,16 @@ body {
 li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 17px;
     color: #242021;
     text-decoration: none;
 }
 header {
+    padding: 5px 10%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 5px 10%;
 }
-
 .logo {
     cursor: pointer;
     margin-right: auto;
@@ -29,51 +28,52 @@ header {
 .navbar{
     background-color: #d6d6dd;
 }
-.navlinks {
+.navLinks {
     list-style: none;
 }
-.navlinks li {
+.navLinks li {
     display: inline-block;
     padding: 0px 20px;
 }
-.navlinks li a {
-    transition: all 0.3s ease 0s
+.navLinks li a {
+    transition: all 0.5s ease 0s
 }
-.navlinks li a:hover {
+.navLinks li a:hover {
     color: rgb(24, 107, 188);
 }
 button {
+    text-decoration: none;
     margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgb(24, 107, 188);
+    padding: 10px 25px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    background-color: rgb(24, 107, 188);
     font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 17px;
     color: #ffffff;
-    text-decoration: none;
+
 }
 
 .headerText {
-    position: absolute;
     top: 38%;
     left: 44.5%;
+    position: absolute;
     transform: translate(-50%, -50%);
-    font-family: "Montserrat", sans-serif;
-    font-weight: 200;
-    font-size: 20px;
-    color: #ffffff;
     text-decoration: none;
     letter-spacing: 1px;
     line-height: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 250;
+    font-size: 20px;
+    color: #ffffff;
     text-shadow: 1px 1px 1px #151313;
 }
 
 button:hover {
-    background-color: rgb(0, 28, 56);
+    background-color: rgb(18, 77, 138);
 }
 
 .mainImage {
@@ -81,15 +81,15 @@ button:hover {
 }
 
 .centered {
-    position: absolute;
     top: 30%;
     left: 25%;
+    position: absolute;
     transform: translate(-50%, -50%);
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 1000;
     font-size: 40px;
     color: #ffffff;
-    text-decoration: none;
     letter-spacing: 2px;
     text-shadow: 1px 1px 1px #151313;
 }
@@ -98,30 +98,27 @@ button:hover {
     padding: 20%;
 }
 .firstHeader {
-
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 1000;
-    font-size: 30px;
-    color: #ffffff;
-    text-decoration: none;
-    letter-spacing: 2px;
     margin-top: 50px;
     margin-bottom: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #ffffff;
+    letter-spacing: 2px;
 }
 .firstText {
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: #ffffff;
-    text-decoration: none;
-    letter-spacing: 2px;
-    width: 97%;
     margin-left: 0%;
     margin-top: 2%;
-
-
+    width: 97%;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: 2px;
 
 }
 
@@ -131,25 +128,27 @@ button:hover {
 }
 
 .headerTwo {
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 1000;
-    font-size: 30px;
-    color: #1f1d20;
-    text-decoration: none;
-    letter-spacing: 2px;
     padding-top: 50px;
     margin-bottom: 25px;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #1f1d20;
+    letter-spacing: 2px;
+
 }
 
 .TextTwo {
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    color: #1f1d1f;
-    text-decoration: none;
-    letter-spacing: 2px;
     width: 55%;
     margin-left: 24%;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1f1d1f;
+    letter-spacing: 2px;
+
 }
