@@ -7,6 +7,7 @@ html {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 body {
     background-color: #ffffff;
@@ -78,7 +79,6 @@ button {
     width: 50%;
     top:100px;
     position: absolute;
-    text-decoration: none;
     letter-spacing: 1px;
     line-height: 30px;
     font-family: "Montserrat", sans-serif;
@@ -89,7 +89,7 @@ button {
     overflow: hidden;
 }
 .mainImage {
-    width: 1900px;
+    width: 100%;
 }
 
 button:hover {
@@ -101,7 +101,7 @@ button:hover {
     height: 900px;
 }
 .greyBG {
-    background-color: #f3f3f3;
+    background-color: #e3e3e3;
     height: 900px;
     width: 100%;
 }
@@ -120,6 +120,7 @@ button:hover {
     width: 42vw;
     float: right;
     margin: 5%;
+
 }
 .leftText {
     width: 50%;
@@ -156,7 +157,7 @@ button:hover {
 }
 
 .childIMG {
-    height: 470px;
+    height: 425px;
     width: 750px;
     float: left;
     margin-top: 5%;
@@ -164,35 +165,78 @@ button:hover {
 }
 
 
-
-@media only screen and (min-width: 1000px) {
+.footer {
+    padding: 70px 0px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #1F1D1F;
+}
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height 100%;
+}
+.inner_footer .logo-container {
+    width: 35%;
+    height: 100%;
+    float: left;
+    display: block;
+}
+.inner_footer .logo-container img{
+    padding-top: 5%;
+    width: 40%;
+    height: auto;
+}
+.inner_footer .footer_third {
+    width: calc(21.6666666667% - 20px);
+    margin-right: 10px;
+    float: left;
+    height: 100%;
+}
+.inner_footer .footer_third:last-child() {
+    margin-right: 0;
+}
+.inner_footer .footer_third h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    color: white;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.inner_footer .footer_third a {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: white;
+    display: block;
+    font-weight: 200px;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.inner_footer .footer_third li {
+    display: inline-block;
+    padding: 0 5px;
+    font-size: bottom;
+}
+.inner_footer .footer_third span {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    display: block;
+    width: 100%;
+    padding-top: 20px;
+}
+@media(max-width:600px){
+    .footer .inner_footer {
+        width: 90%;
     }
-    .wrapper {
-        width: 1000px;
-    }
-
-    .main-content h2 {
-        padding: 10px 0px 0px;
-    }
-
-    .ligthviewBlack {
-        width: 50%;
-    }
-
-    .lightviewWhite {
-        width: 50%;
-        float: right;
-    }
-
-    .lightviewSpecs {
-        width: 50%;
-    }
-    .footer {
-        display: block;
-    }
-    .team-image {
+    .inner_footer .logo-container,
+    .inner_footer .footer_third {
         width: 100%;
+        margin: 30%;
     }
 }
-
-
