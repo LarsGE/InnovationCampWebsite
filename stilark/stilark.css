@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -56,35 +60,10 @@ button {
     color: #ffffff;
 
 }
-
-.headerText {
-    top: 38%;
-    left: 44.5%;
+.mainTitle {
+    margin: 10%;
+    top:40px;
     position: absolute;
-    transform: translate(-50%, -50%);
-    text-decoration: none;
-    letter-spacing: 1px;
-    line-height: 30px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 250;
-    font-size: 20px;
-    color: #ffffff;
-    text-shadow: 1px 1px 1px #151313;
-}
-
-button:hover {
-    background-color: rgb(18, 77, 138);
-}
-
-.mainImage {
-    width: 100%;
-}
-
-.mainText {
-    top: 30%;
-    left: 25%;
-    position: absolute;
-    transform: translate(-50%, -50%);
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 1000;
@@ -94,58 +73,40 @@ button:hover {
     text-shadow: 1px 1px 1px #151313;
 }
 
-.firstHeader {
-    margin-top: 50px;
-    margin-bottom: 25px;
+.mainText {
+    margin: 10%;
+    width: 50%;
+    top:100px;
+    position: absolute;
     text-decoration: none;
-    text-align: center;
+    letter-spacing: 1px;
+    line-height: 30px;
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
-    font-weight: 1000;
+    font-weight: 250;
+    font-size: 20px;
     color: #ffffff;
-    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #151313;
+    overflow: hidden;
 }
-.firstText {
-    margin-left: 0%;
-    margin-top: 2%;
-    width: 97%;
-    text-decoration: none;
-    text-align: left;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    font-weight: 500;
-    color: #ffffff;
-    letter-spacing: 2px;
+.mainImage {
+    width: 1900px;
+}
 
+button:hover {
+    background-color: rgb(18, 77, 138);
 }
 
 .whiteBG {
     background-color: #ffffff;
     height: 900px;
 }
-.blackBG {
+.greyBG {
     background-color: #f3f3f3;
     height: 900px;
     width: 100%;
 }
-.scanner {
-    height: 400px;
-    width: 700px;
-    float: right;
-    margin: 50px;
-}
-
-.statIMG {
-    height: 420px;
-    width: 480px;
-    float: left;
-    margin: 125px;
-    margin-left: 220px;
-}
-
-.headerTwo {
-    padding-top: 125px;
-    text-decoration: none;
+.sectionTitle {
+    padding-top: 100px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -154,10 +115,14 @@ button:hover {
     letter-spacing: 2px;
 
 }
-
-.TextOne {
+.scanner {
+    height: 24vw;
+    width: 42vw;
+    float: right;
+    margin: 5%;
+}
+.leftText {
     width: 50%;
-    margin-left: 1vw;
     text-decoration: none;
     text-align: left;
     font-family: "Montserrat", sans-serif;
@@ -165,13 +130,12 @@ button:hover {
     font-weight: 500;
     color: #1f1d1f;
     letter-spacing: 2px;
-    padding:7%;
+    padding: 10%;
 
 }
-.TextTwo {
+.rightText {
     width: 50%;
     float: right;
-    margin-right: 1vw;
     text-decoration: none;
     text-align: left;
     font-family: "Montserrat", sans-serif;
@@ -181,23 +145,54 @@ button:hover {
     letter-spacing: 2px;
     padding: 7%;
     margin:auto;
-    }
+}
+
+.statIMG {
+    height: 420px;
+    width: 480px;
+    float: left;
+    margin: 10%;
+    position: absolute;
+}
 
 .childIMG {
-    height: 500px;
-    width: 800px;
+    height: 470px;
+    width: 750px;
     float: left;
-    margin-top: 50px;
-    margin-left: 50px;
-}
-.pakking{
-    width:100%;
-}
-.glennerhomo {
-    width:33.3333333333333333%;
-    border-color:#800000;
-    background-color: rgba(203, 19, 19, 0.67);
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
+
+
+@media only screen and (min-width: 1000px) {
+    }
+    .wrapper {
+        width: 1000px;
+    }
+
+    .main-content h2 {
+        padding: 10px 0px 0px;
+    }
+
+    .ligthviewBlack {
+        width: 50%;
+    }
+
+    .lightviewWhite {
+        width: 50%;
+        float: right;
+    }
+
+    .lightviewSpecs {
+        width: 50%;
+    }
+    .footer {
+        display: block;
+    }
+    .team-image {
+        width: 100%;
+    }
+}
 
 
