@@ -43,6 +43,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +59,10 @@
       <workItem from="1603367560640" duration="1951000" />
       <workItem from="1603374365507" duration="276000" />
       <workItem from="1603379521373" duration="6677000" />
-      <workItem from="1603396235433" duration="2076000" />
+      <workItem from="1603396235433" duration="2124000" />
+      <workItem from="1603402888157" duration="55000" />
+      <workItem from="1603402957625" duration="685000" />
+      <workItem from="1603403974663" duration="658000" />
     </task>
     <servers />
   </component>
@@ -92,5 +96,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="asd" />
     <option name="LAST_COMMIT_MESSAGE" value="asd" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="459" y="155" key="#Plugins" timestamp="1603402944443">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="459" y="155" key="#Plugins/0.0.1735.1030/1735.0.1920.1040@0.0.1735.1030" timestamp="1603402944443" />
+    <state x="368" y="159" key="SettingsEditor" timestamp="1603403091039">
+      <screen x="0" y="0" width="1735" height="1030" />
+    </state>
+    <state x="368" y="159" key="SettingsEditor/0.0.1735.1030/1735.0.1920.1040@0.0.1735.1030" timestamp="1603403091039" />
   </component>
 </project>
