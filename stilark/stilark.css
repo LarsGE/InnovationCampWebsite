@@ -4,20 +4,21 @@ html {
     scroll-behavior: smooth;
 }
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 
 }
 body {
     background-color: #ffffff;
-
+    margin: 0;
+    padding: 0;
 }
+
+/* HEADER */
+
 li, a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 17px;
-    color: #242021;
+    color: #ffffff;
     text-decoration: none;
 }
 header {
@@ -29,11 +30,13 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
-    width: 90px;
+    width: 100px;
     height: auto;
+    padding: 20px 0px;
+
 }
 .navbar{
-    background-color: #ffffff;
+    background-color: #222;
 }
 .menu {
     list-style: none;
@@ -48,6 +51,48 @@ header {
 .menu li a:hover {
     color: rgb(24, 107, 188);
 }
+
+/* MAIN CONTENT */
+
+.wrapper {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.main h2 {
+    padding: 10px 30px 0px;
+    font-size: 50px;
+    color: #186bbc;
+    line-height: 44px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin: 50px;
+}
+
+.main p {
+    padding: 50px 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    color: #000;
+    line-height: 24px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+.scanner {
+    width: 100%;
+}
+.image {
+    width: 100%;
+}
+
+/* AWEI)JA)WEJ */
+
 button {
     text-decoration: none;
     margin-left: 20px;
@@ -90,7 +135,7 @@ button {
     text-shadow: 1px 1px 1px #151313;
     overflow: hidden;
 }
-.mainImage {
+.mainimage {
     width: 100%;
 }
 
@@ -117,13 +162,13 @@ button:hover {
     letter-spacing: 2px;
 
 }
-.scanner {
+/*.scanner {
     height: auto;
     width: 42vw;
     float: right;
     margin: 5%;
+}*/
 
-}
 .leftText {
     width: 50%;
     text-decoration: none;
@@ -149,6 +194,9 @@ button:hover {
     padding: 7%;
     margin:auto;
 }
+.bottom-text {
+    margin-bottom: 50px;
+}
 
 .statIMG {
     height: auto;
@@ -166,6 +214,7 @@ button:hover {
     margin-left: 10%;
 }
 
+/* FOOTER */
 
 .footer {
     width: 100%;
@@ -176,19 +225,19 @@ button:hover {
     background-color: #1F1D1F;
 }
 .inner_footer {
-    height 100%;
+    height: 100%;
     width: 1100px;
     margin: 0 auto;
     display: block;
 
 }
-.inner_footer .logo-container {
+.inner_footer .footer_logo {
     height: 100%;
     width: 35%;
     float: left;
     display: block;
 }
-.inner_footer .logo-container img{
+.inner_footer .footer_logo img{
     height: auto;
     width: 40%;
     padding-top: 5%;
@@ -200,7 +249,7 @@ button:hover {
     float: left;
 
 }
-.inner_footer .footer_list:last-child() {
+.inner_footer .footer_list:last-child {
     margin-right: 0;
 }
 .inner_footer .footer_list h1 {
@@ -218,18 +267,18 @@ button:hover {
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    font-weight: 200px;
+    font-weight: 200;
     color: white;
 
 }
 .inner_footer a:hover {
-    color: #186BBC;
+    color: #186bbc;
     cursor: pointer;
 }
 .inner_footer .footer_list li {
     padding: 0 5px;
     display: inline-block;
-    font-size: bottom;
+    font-size: 20px;
 }
 .inner_footer .footer_list span {
     display: block;
@@ -240,11 +289,57 @@ button:hover {
     font-weight: 200;
     color: white;
 }
-@media(max-width:600px){
+/* RESPONSIVE */
+
+@media only screen and (min-width: 768px) {
+
+    .wrapper {
+        width: 600px;
+        margin: auto;
+    }
+    .main h2 {
+        padding: 20px 0px 0px;
+    }
+    .main p {
+        padding: 20px 0px 0px;
+    }
+    .products h2 {
+        padding: 20px 0px 0px;
+    }
+    .products p {
+        padding: 20px 0px 0px;
+    }
+    .scanner {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        width: 1000px;
+    }
+
+    .main h2 {
+        padding: 10px 0px 0px;
+    }
+
+    .scanner {
+        width: 100%;
+    }
+    .image {
+        width: 100%;
+    }
+
+}
+@media(max-width:768px){
     .footer .inner_footer {
         width: 90%;
     }
-    .inner_footer .logo-container,
+    .inner_footer .footer_logo,
     .inner_footer .footer_list {
         width: 100%;
         margin: 5%;
