@@ -54,15 +54,15 @@ header {
     color: rgb(24, 107, 188);
 }
 
-button {
-    text-decoration: none;
-    margin-left: 20px;
+.button {
     padding: 10px 25px;
+    margin-left: 20px;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     background-color: rgb(24, 107, 188);
+    text-decoration: none;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 17px;
@@ -76,32 +76,33 @@ button:hover {
 
 /* MAIN */
 
-.wrapper {
-    width: 100%;
-}
-
 .main {
     width: 100%;
 }
 
+.wrapper {
+    width: 100%;
+}
+
 .main h2 {
+    margin: 50px;
     padding: 10px 30px 0px;
-    font-size: 50px;
-    color: #186bbc;
     line-height: 44px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    margin: 50px;
+    font-size: 50px;
+    font-weight: 900;
+    color: #186bbc;
+
 }
 
 .main p {
     padding: 50px 50px;
     padding-bottom: 50px;
-    font-size: 18px;
-    color: #000;
     line-height: 24px;
     font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #000;
 }
 
 .image {
@@ -109,6 +110,7 @@ button:hover {
 }
 
 .bottom-text {
+    margin-top: -50px;
     margin-bottom: 50px;
 }
 
@@ -182,7 +184,7 @@ button:hover {
 .footer_div .footer_list span {
     display: block;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 25px;
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     font-weight: 200;
@@ -190,7 +192,7 @@ button:hover {
 }
 /* RESPONSIVE */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1060px) {
 
     .wrapper {
         width: 600px;
@@ -200,12 +202,6 @@ button:hover {
         padding: 20px 0px 0px;
     }
     .main p {
-        padding: 20px 0px 0px;
-    }
-    .product h2 {
-        padding: 20px 0px 0px;
-    }
-    .product p {
         padding: 20px 0px 0px;
     }
     .image {
@@ -228,13 +224,14 @@ button:hover {
     }
 
 }
-@media(max-width:768px){
+@media(max-width:1060px){
     .footer .footer_div {
-        width: 90%;
+        width: 80%;
     }
     .footer_div .footer_logo,
     .footer_div .footer_list {
         width: 100%;
-        margin: 5%;
+        margin: 3%;
     }
+
 }
