@@ -1,16 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-/* OTHERS */
-
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 * {
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
-
 }
 body {
     background-color: #ffffff;
@@ -19,11 +17,12 @@ body {
 }
 
 /* NAVIGATION BAR / HEADER */
+
 nav {
     top: 0;
     position: fixed;
     width: 100%;
-    background: #222;
+    background: #222222;
     height: 80px;
 }
 
@@ -67,69 +66,8 @@ nav ul li a:before {
 nav ul li a:before {
 
 }
-/*
-.navbar li, a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: 17px;
-    color: #ffffff;
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-}
-header {
-    padding: 5px 10%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-.logo {
-    cursor: pointer;
-    margin-right: auto;
-    width: 100px;
-    height: auto;
-    padding: 20px 0px;
 
-}
-.navbar{
-    background-color: #222;
-}
-.menu {
-    list-style: none;
-}
-.menu li {
-    display: inline-block;
-    padding: 0px 20px;
-}
-.menu li a {
-    transition: all 0.5s ease 0s
-}
-.menu li a:hover {
-    color: rgb(24, 107, 188);
-}
-
-.button {
-    padding: 10px 25px;
-    margin-left: 20px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-    background-color: rgb(24, 107, 188);
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 17px;
-    color: #ffffff;
-
-}
-
-button:hover {
-    background-color: rgb(18, 77, 138);
-}
-*/
-
-/* NAVIGATION BAR MOBILE */
+/* NAVIGATION BAR LABEL */
 
 label #btn,
 label #cancel{
@@ -149,6 +87,7 @@ label #cancel{
 
 .main {
     width: 100%;
+
 }
 
 .wrapper {
@@ -156,7 +95,7 @@ label #cancel{
 }
 
 .main h2 {
-    margin: 50px;
+    margin: 125px 50px 75px 50px;
     padding: 50px 30px 0;
     line-height: 44px;
     text-align: center;
@@ -180,7 +119,6 @@ label #cancel{
 }
 
 .bottom-text {
-    margin-top: -35px;
     margin-bottom: 50px;
 }
 
@@ -193,7 +131,7 @@ label #cancel{
     box-sizing: border-box;
     display: block;
     overflow: hidden;
-    background-color: #1F1D1F;
+    background-color: #222222;
 }
 .footer_div {
     height: 100%;
@@ -262,7 +200,42 @@ label #cancel{
 }
 /* RESPONSIVE */
 
+/* HEADER */
 
+@media(max-width:860px){
+
+    label #btn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #222222;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    #check:checked ~ label #btn{
+        display: none;
+    }
+    #check:checked ~ label #cancel{
+        display: block;
+    }
+}
 
 @media only screen and (min-width: 1060px) {
 
@@ -281,13 +254,7 @@ label #cancel{
     .image {
         width: 100%;
     }
-    /*  .navbar li, a {
-    font-family: "Montserrat", sans-serif;
-    font-size: 17px;
-    color: #ffffff;
-    text-decoration: none;
 
-    }*/
 }
 
 @media only screen and (min-width: 1000px) {
@@ -328,37 +295,4 @@ label #cancel{
         font-size: 17px;
     }
 }
-@media(max-width:860px){
 
-    label #btn{
-    display: block;
-    }
-    ul{
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        background: #222;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all 0.5s;
-    }
-    nav ul li {
-    display: block;
-        margin: 50px 0;
-        line-height: 30px;
-
-    }
-    nav ul li a {
-        font-size: 20px;
-    }
-    #check:checked ~ ul{
-        left: 0;
-    }
-    #check:checked ~ label #btn{
-        display: none;
-    }
-    #check:checked ~ label #cancel{
-        display: block;
-    }
-}
