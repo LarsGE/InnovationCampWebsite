@@ -48,6 +48,9 @@ nav ul li a {
     text-transform: uppercase;
     color: white;
 }
+nav ul li a:hover {
+    color: #c1c1c1;
+}
 
 /* NAVIGATION BAR LABEL */
 
@@ -201,6 +204,7 @@ div article img {
     }
     #check:checked ~ ul{
         left: 0;
+
     }
     #check:checked ~ label #button{
         display: none;
