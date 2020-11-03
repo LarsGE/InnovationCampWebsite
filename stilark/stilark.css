@@ -229,7 +229,7 @@ div article img {
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1060px) {
 
     .wrapper {
         width: 1000px;
@@ -263,6 +263,8 @@ div article img {
     nav ul li a {
         font-size: 18px;
     }
-
+    .footer_div .footer_logo {
+        width: 50%;
+    }
 }
 
